@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,37 +19,46 @@
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-item-link-current">Главная</a>
+            <a class="navigation-current">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-item-link" href="#">Фото и видео</a>
+            <a class="navigation-link" href="#">Фото и видео</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-item-link" href="#">Форма отзыва</a>
+            <a class="navigation-link" href="#">Форма отзыва</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-item-link" href="#">HTML academy</a>
+            <a class="navigation-link" href="#">HTML academy</a>
           </li>
         </ul>
-        <img
-          src="back-desktop.jpg"
-          alt="Фотография гор, поверх нее надпись: Welcome to the gorgeous SEDONA. Because the Grand Canyon sucks!"
-        />
       </nav>
     </header>
 
     <main class="content">
       <section class="lead">
+        <div class="lead-image">
+          <img
+            src="back-desktop.jpg"
+            alt="Фотография гор"
+          />
+          <img
+            src="text-index.svg"
+            alt="Welcome to the gorgeous SEDONA. Because the Grand Canyon sucks!"
+          />
+        </div>
+
         <h2 class="lead-header">
           Седона — небольшой городок в аризоне, заслуживающий большего!
         </h2>
         <p class="lead-text">
           Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
         </p>
+      </section>
 
-        <article class="reason">
-          <ol class="reason-list">
-            <li class="reason-item">
+      <section class="reason">
+        <ol class="reason-list">
+          <li class="reason-item">
+            <article class="reason-special">
               <h3 class="reason-header">Настоящий городок</h3>
               <p class="reason-text">
                 Седона не аттракцион для туристов, там течет своя жизнь
@@ -59,8 +68,11 @@
                 src="photo-city@1x"
                 alt="Фото мансарды местного ресторана"
               />
-              <ul class="about-city-list">
-                <li class="about-city-item">
+            </article>
+            
+            <ul class="about-city-list">
+              <li class="about-city-item">
+                <section class="about-city-example">
                   <img
                     class="about-city-icon"
                     src="icon-house"
@@ -70,8 +82,10 @@
                   <p class="about-city-text">
                     Рекомендуем пожить в настоящем мотеле, все как в кино!
                   </p>
-                </li>
-                <li class="about-city-item">
+                </section>
+              </li>
+              <li class="about-city-item">
+                <section class="about-city-example">
                   <img
                     class="about-city-icon"
                     src="icon-burger"
@@ -81,8 +95,10 @@
                   <p class="about-city-text">
                     Не только китайского, но и местного производства!
                   </p>
-                </li>
-                <li class="about-city-item">
+                </section>
+              </li>
+              <li class="about-city-item">
+                <section class="about-city-example">
                   <img
                     class="about-city-icon"
                     src="icon-gift"
@@ -92,10 +108,12 @@
                   <p class="about-city-text">
                     Всегда заказывайте фирменный бургер, вы не разочаруетесь!
                   </p>
-                </li>
-              </ul>
-            </li>
-            <li class="reason-item">
+                </section>
+              </li>
+            </ul>
+          </li>
+          <li class="reason-item">
+            <article class="reason-special">
               <img
                 src="photo-bridge@1x"
                 alt="Фото моста образованного естественным образом из каменных наростов двух соседних гор. Очень высоко, внизу лес, на фоне долина с горами."
@@ -104,27 +122,33 @@
               <p class="reason-text">
                 Да, по нему можно пройти! Если вы осмелитесь, конечно
               </p>
-            </li>
-            <li class="reason-item">
+            </article>
+          </li>
+          <li class="reason-item">
+            <section class="reason-regular">
               <h3 class="reason-header">Небольшая площадь</h3>
               <p class="reason-text">
                 Все интересные места находятся очень близко
               </p>
-            </li>
-            <li class="reason-item">
+            </section>
+          </li>
+          <li class="reason-item">
+            <section class="reason-regular">
               <h3 class="reason-header">Красивая дорога</h3>
               <p class="reason-text">
                 Ехать в седону из лас-вегаса совсем не скучно!
               </p>
-            </li>
-            <li class="reason-item">
+            </section>
+          </li>
+          <li class="reason-item">
+            <section class="reason-regular">
               <h3 class="reason-header">Мало туристов</h3>
               <p class="reason-text">
                 Большинство едет в гранд каньон и толпится там
               </p>
-            </li>
-          </ol>
-        </article>
+            </section>
+          </li>
+        </ol>
       </section>
 
       <section class="landing">
@@ -136,33 +160,39 @@
           предложения гостиниц в седоне
         </p>
         <a class="landing-button" href="#">Найти гостиницу</a>
-
+      </section>
+      <div class="map-with-marker">
         <img
           class="map-image"
           src="map-mobile.jpg"
           alt="Расположение на карте: к югу от Флагстаффа по 17 шоссе"
         />
-      </section>
+        <span class="marker-on-map">
+      </div>
     </main>
 
     <footer class="footer">
-      <h2 class="header-hashtag">#visitsedona</h2>
+      <strong class="header-hashtag">#visitsedona</strong>
       <ul class="social-list">
         <li class="social-item">
-          <a class="social-button" href="#">Вконтакте</a>
+          <a class="social-button" target ="#">Вконтакте</a>
         </li>
         <li class="social-item">
-          <a class="social-button" href="#">Фейсбук</a>
+          <a class="social-button" target="#">Фейсбук</a>
         </li>
         <li class="social-item">
-          <a class="social-button" href="#">Ютуб</a>
+          <a class="social-button" target="#">Ютуб</a>
         </li>
       </ul>
-      <a class="copyright"
-        >Разработано<img
-          src="htmlacademy.svg"
-          alt="Логотип в виде герба с квадратной шляпой, как у выпускников академии"
-      /></a>
+      <p>
+        Разработано
+        <a class="copyright" target="#">
+          <img
+            src="htmlacademy.svg"
+            alt="Логотип в виде герба с квадратной шляпой, как у выпускников академии"
+          />
+        </a>
+      </p>
     </footer>
   </body>
 </html>
