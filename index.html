@@ -8,7 +8,7 @@
   </head>
   <body class="page">
     <header class="header">
-      <a>
+      <a class="header-link">
         <img
           class="header-slogan"
           src="img/logotype-mobile.svg"
@@ -19,119 +19,135 @@
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-item-link-current">Главная</a>
+            <a class="navigation-current">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-item-link" href="#">Фото и видео</a>
+            <a class="navigation-link" href="#">Фото и видео</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-item-link" href="#">Форма отзыва</a>
+            <a class="navigation-link" href="#">Форма отзыва</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-item-link" href="#">HTML academy</a>
+            <a class="navigation-link" href="#">HTML academy</a>
           </li>
         </ul>
-        <img
-          class="navigation-backround"
-          src="img/back-desktop.jpg"
-          alt="Фотография гор, поверх нее следующая надпись."
-        />
-        <img
-          class="navigation-foreground"
-          src="img/text-index.svg"
-          alt="Welcome to the gorgeous SEDONA. Because the Grand Canyon sucks!"
-        />
       </nav>
     </header>
 
     <main class="content">
       <section class="lead">
+        <div class="lead-image">
+          <img class="lead-image-background"
+            src="img/back-desktop.jpg"
+            alt="Фотография гор, поверх нее следующая надпись."
+          />
+          <img class="lead-image-foreground"
+            src="img/text-index.svg"
+            alt="Welcome to the gorgeous SEDONA. Because the Grand Canyon sucks!"
+          />
+        </div>
+
         <h2 class="lead-header">
           Седона — небольшой городок в аризоне, заслуживающий большего!
         </h2>
         <p class="lead-text">
           Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
         </p>
-
-        <article class="reason">
-          <ol class="reason-list">
-            <li class="reason-item">
-              <h3 class="reason-header">Настоящий городок</h3>
-              <p class="reason-text">
-                Седона не аттракцион для туристов, там течет своя жизнь
-              </p>
-              <img
-                class="reason-image"
-                src="img/photo-city@1x.jpg"
-                alt="Фото мансарды местного ресторана"
-              />
-              <ul class="about-city-list">
-                <li class="about-city-item">
-                  <img
-                    class="about-city-icon"
-                    src="img/icon-house.png"
-                    alt="Иконка дома"
-                  />
-                  <h4 class="about-city-header">Жилье</h4>
-                  <p class="about-city-text">
-                    Рекомендуем пожить в настоящем мотеле, все как в кино!
-                  </p>
-                </li>
-                <li class="about-city-item">
-                  <img
-                    class="about-city-icon"
-                    src="img/icon-burger.png"
-                    alt="Иконка бургера"
-                  />
-                  <h4 class="about-city-header">Сувениры</h4>
-                  <p class="about-city-text">
-                    Не только китайского, но и местного производства!
-                  </p>
-                </li>
-                <li class="about-city-item">
-                  <img
-                    class="about-city-icon"
-                    src="img/icon-gift.png"
-                    alt="Иконка подарка"
-                  />
-                  <h4 class="about-city-header">Еда</h4>
-                  <p class="about-city-text">
-                    Всегда заказывайте фирменный бургер, вы не разочаруетесь!
-                  </p>
-                </li>
-              </ul>
-            </li>
-            <li class="reason-item">
-              <img
-                src="img/photo-bridge@1x.jpg"
-                alt="Фото моста Дьявола образованного естественным образом из каменных наростов двух соседних гор. Очень высоко, внизу лес, на фоне долина с горами."
-              />
-              <h3 class="reason-header">Там есть Мост дьявола</h3>
-              <p class="reason-text">
-                Да, по нему можно пройти! Если вы осмелитесь, конечно
-              </p>
-            </li>
-            <li class="reason-item">
-              <h3 class="reason-header">Небольшая площадь</h3>
-              <p class="reason-text">
-                Все интересные места находятся очень близко
-              </p>
-            </li>
-            <li class="reason-item">
-              <h3 class="reason-header">Красивая дорога</h3>
-              <p class="reason-text">
-                Ехать в седону из лас-вегаса совсем не скучно!
-              </p>
-            </li>
-            <li class="reason-item">
-              <h3 class="reason-header">Мало туристов</h3>
-              <p class="reason-text">
-                Большинство едет в гранд каньон и толпится там
-              </p>
-            </li>
-          </ol>
-        </article>
       </section>
+
+      <ol class="reason-list">
+        <li class="reason-item">
+          <article class="reason-special">
+            <h3 class="reason-header">Настоящий городок</h3>
+            <p class="reason-text">
+              Седона не аттракцион для туристов, там течет своя жизнь
+            </p>
+            <img
+              class="reason-image"
+              src="img/photo-city@1x"
+              alt="Фото мансарды местного ресторана"
+            />
+          </article>
+          
+          <ul class="about-city-list">
+            <li class="about-city-item">
+              <section class="about-city-example">
+                <img
+                  class="about-city-icon"
+                  src="img/icon-house.png"
+                  alt="Иконка дома"
+                />
+                <h4 class="about-city-header">Жилье</h4>
+                <p class="about-city-text">
+                  Рекомендуем пожить в настоящем мотеле, все как в кино!
+                </p>
+              </section>
+            </li>
+            <li class="about-city-item">
+              <section class="about-city-example">
+                <img
+                  class="about-city-icon"
+                  src="img/icon-burger.png"
+                  alt="Иконка бургера"
+                />
+                <h4 class="about-city-header">Сувениры</h4>
+                <p class="about-city-text">
+                  Не только китайского, но и местного производства!
+                </p>
+              </section>
+            </li>
+            <li class="about-city-item">
+              <section class="about-city-example">
+                <img
+                  class="about-city-icon"
+                  src="img/icon-gift.png"
+                  alt="Иконка подарка"
+                />
+                <h4 class="about-city-header">Еда</h4>
+                <p class="about-city-text">
+                  Всегда заказывайте фирменный бургер, вы не разочаруетесь!
+                </p>
+              </section>
+            </li>
+          </ul>
+        </li>
+        <li class="reason-item">
+          <article class="reason-special">
+            <img class="reason-image"
+              src="img/photo-bridge@1x.jpg"
+              alt="Фото моста образованного естественным образом из каменных наростов двух соседних гор. Очень высоко, внизу лес, на фоне долина с горами."
+            />
+            <h3 class="reason-header">Там есть Мост дьявола</h3>
+            <p class="reason-text">
+              Да, по нему можно пройти! Если вы осмелитесь, конечно
+            </p>
+          </article>
+        </li>
+        <li class="reason-item">
+          <section class="reason-regular">
+            <h3 class="reason-header">Небольшая площадь</h3>
+            <p class="reason-text">
+              Все интересные места находятся очень близко
+            </p>
+          </section>
+        </li>
+        <li class="reason-item">
+          <section class="reason-regular">
+            <h3 class="reason-header">Красивая дорога</h3>
+            <p class="reason-text">
+              Ехать в седону из лас-вегаса совсем не скучно!
+            </p>
+          </section>
+        </li>
+        <li class="reason-item">
+          <section class="reason-regular">
+            <h3 class="reason-header">Мало туристов</h3>
+            <p class="reason-text">
+              Большинство едет в гранд каньон и толпится там
+            </p>
+          </section>
+        </li>
+      </ol>
 
       <section class="landing">
         <h2 class="landing-header">
@@ -142,39 +158,42 @@
           предложения гостиниц в седоне
         </p>
         <a class="landing-button" href="#">Найти гостиницу</a>
-
+      </section>
+      <div class="map-with-marker">
         <img
           class="map-image"
           src="img/map-tablet.jpg"
           alt="Расположение на карте: к югу от Флагстаффа по 17 шоссе"
         />
-      </section>
+        <span class="marker-on-map"></span>
+      </div>
     </main>
 
     <footer class="footer">
-      <h2 class="header-hashtag">#visitsedona</h2>
+      <strong class="header-hashtag">#visitsedona</strong>
       <ul class="social-list">
         <li class="social-item">
-          <a class="social-button" href="#"
-            ><img src="img/icon-twitter.svg" alt="Твиттер"
+          <a class="social-button" href="#" target ="_blank"><img src="img/icon-twitter.svg" alt="Twitter"
           /></a>
         </li>
         <li class="social-item">
-          <a class="social-button" href="#"
-            ><img src="img/icon-facebook.svg" alt="Фейсбук"
+          <a class="social-button" href="#" target="_blank"><img src="img/icon-facebook.svg" alt="Facebook"
           /></a>
         </li>
         <li class="social-item">
-          <a class="social-button" href="#"
-            ><img src="img/icon-youtube.svg" alt="Ютуб"
+          <a class="social-button" href="#" target="_blank"><img src="img/icon-youtube.svg" alt="YouTube"
           /></a>
         </li>
       </ul>
-      <a class="copyright"
-        >Разработано<img
-          src="img/htmlacademy.svg"
-          alt="Логотип в виде герба с квадратной шляпой, как у выпускников академии"
-      /></a>
+      <p>
+        Разработано
+        <a class="copyright" href="#" target="_blank">
+          <img
+            src="img/htmlacademy.svg"
+            alt="Логотип в виде герба с квадратной шляпой, как у выпускников академии"
+          />
+        </a>
+      </p>
     </footer>
   </body>
 </html>
