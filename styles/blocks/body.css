@@ -1,0 +1,29 @@
+.body {
+  font-family: "PT Sans", "Arial", sans-serif;
+
+  width: 320px;
+  margin: 0 auto;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+p {
+  color: #333333;
+  line-height: 26px;
+  margin: 20px;
+}
+
+.lead-header,
+.about-city-header {
+  font-size: 18px;
+  line-height: 26px;
+  margin: 20px;
+}
+
+.lead-image-foreground {
+  background-color: gray;
+}
+
