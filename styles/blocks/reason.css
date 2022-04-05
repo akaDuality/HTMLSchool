@@ -19,8 +19,21 @@
   padding: 10px;
 }
 
+
+.about-city-example {
+  display: flex;
+  align-content: flex-start;
+}
+
 .about-city-icon {
   fill: #81b3d2;
   width: 52px;
   height: 52px;
+  margin: 20px;
+}
+
+.about-city-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

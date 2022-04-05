@@ -10,28 +10,13 @@
   line-height: 21px;
 }
 
-.lead-image-background {
-  width: 100%;
-}
-
-.lead-image-foreground {
-  width: 100%;
-  height: 100%;
-}
-
 p {
   color: #333333;
   line-height: 26px;
-  margin: 20px;
 }
 
 .lead-header,
 .about-city-header {
   font-size: 18px;
   line-height: 26px;
-  margin: 20px;
-}
-
-.lead-image-foreground {
-  background-color: gray;
 }

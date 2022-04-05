@@ -21,3 +21,7 @@ textarea {
   line-height: inherit;
 }
 
+h3,
+p {
+  margin: 0px;
+}
