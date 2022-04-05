@@ -2,7 +2,7 @@
   color: #766357;
 }
 
-.navigation:visited,
-.navigation:link {
-  color: red;
+.navigation-link:visited,
+.navigation-link:link {
+  color: black;
 }
