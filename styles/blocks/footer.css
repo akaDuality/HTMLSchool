@@ -1,7 +1,9 @@
-.social-item {
-  width: 48px;
-  height: 48px;
-  display: inline-block;
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-hashtag {
@@ -11,6 +13,22 @@
 }
 
 .social-list {
-
+   display: flex;
+   gap: 10px;
+   text-align: center;
 }
 
+.social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 48px;
+  height: 48px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
