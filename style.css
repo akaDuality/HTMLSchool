@@ -1,7 +1,10 @@
 @import "styles/blocks/body.css";
 @import "styles/blocks/reason.css";
 @import "styles/blocks/button.css";
+@import "styles/blocks/landing.css";
+@import "styles/blocks/footer.css";
+@import "styles/blocks/navigation.css";
 @import "styles/font.css";
 @import "styles/reset.css";
-@import "styles/mixin.css";
+
 

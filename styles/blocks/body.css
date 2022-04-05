@@ -1,13 +1,22 @@
 .body {
   font-family: "PT Sans", "Arial", sans-serif;
 
-  width: 320px;
+  width: 100%;
   margin: 0 auto;
 
   text-align: center;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 21px;
+}
+
+.lead-image-background {
+  width: 100%;
+}
+
+.lead-image-foreground {
+  width: 100%;
+  height: 100%;
 }
 
 p {
@@ -26,4 +35,3 @@ p {
 .lead-image-foreground {
   background-color: gray;
 }
-

@@ -1,0 +1,8 @@
+.navigation-current {
+  color: #766357;
+}
+
+.navigation:visited,
+.navigation:link {
+  color: red;
+}
