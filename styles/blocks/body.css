@@ -10,10 +10,5 @@
   line-height: 26px;
 
   color: #333333;
-}
-
-.lead-header,
-.about-city-header {
-  font-size: 18px;
-  line-height: 26px;
+  background-color: #FFFFFF;
 }

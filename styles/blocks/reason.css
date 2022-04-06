@@ -1,7 +1,9 @@
 .reason-special {
+  display: flex;
+  flex-direction: column;
   background-color: #81b3d2;
   color: #ffffff;
-  padding: 20px 0px;
+  padding: 0px;
 }
 
 .reason-image {
