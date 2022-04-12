@@ -9,3 +9,19 @@
 	font-size: 21px;
 	line-height: 150%;
 }
+
+.map-with-marker {
+	background-image: url(../../img/map-desktop.jpg);
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.marker-on-map {
+	width: 30px;
+	height: 30px;
+	background-color: #81b3d2;
+	border-radius: 15px;
+	border: solid 5px white;
+}
