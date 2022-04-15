@@ -1,10 +1,10 @@
 .reason {
-  /*padding: 36px 20px;*/
+ 
 }
 
 .regular {
   background-color: #EEEEEE;
-  padding: 26px 20px;
+  padding: 16px 20px;
 }
 
 .special {
@@ -19,11 +19,11 @@
 }
 
 .reason-content {
-  padding: 36px 20px;
+  padding: 26px 20px;
 }
 
-.reason-number {
-  padding: 12px 20px 16px;
+.reason-text {
+  margin: 12px 20px 16px;
 }
 
 .reason-image {
