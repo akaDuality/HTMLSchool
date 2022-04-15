@@ -1,5 +1,9 @@
 .landing {
+	padding: 38px 20px;
+}
 
+.landing-text {
+	margin: 24px;
 }
 
 .landing-button {

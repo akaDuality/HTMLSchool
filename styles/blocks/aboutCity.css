@@ -1,0 +1,31 @@
+.about-city-list {
+  padding: 26px 20px 36px;
+}
+
+.about-city-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.about-city-title {
+  padding: 30px 0;
+}
+
+.about-city-example {
+  display: flex;
+  align-content: flex-start;
+}
+
+.about-city-icon {
+  display: block;
+  fill: #81b3d2;
+  width: 100px;
+  height: 100px;
+}
+
+.about-city-icon>svg {
+  width: 100px;
+}
+
+.about-city-content {
+  text-align: left;
+}

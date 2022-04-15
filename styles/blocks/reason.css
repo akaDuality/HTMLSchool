@@ -1,10 +1,10 @@
 .reason {
-
+  /*padding: 36px 20px;*/
 }
 
 .regular {
   background-color: #EEEEEE;
-  padding: 10px;
+  padding: 26px 20px;
 }
 
 .special {
@@ -12,11 +12,18 @@
   flex-direction: column;
   background-color: #81b3d2;
   color: #ffffff;
-  padding: 0px;
 }
 
-.reason-title {
-  color: white;
+.reason.special .reason-title {
+  color: #ffffff;
+}
+
+.reason-content {
+  padding: 36px 20px;
+}
+
+.reason-number {
+  padding: 12px 20px 16px;
 }
 
 .reason-image {
@@ -24,21 +31,16 @@
   height: 100%;
 }
 
-
-.about-city-example {
-  display: flex;
-  align-content: flex-start;
+.reason.regular {
+  position: relative;
 }
 
-.about-city-icon {
-  fill: #81b3d2;
-  width: 52px;
-  height: 52px;
-}
-
-.about-city-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
+.reason-item.regular:not(:last-child)::after {
+  content: "";
+  background: #D6D6D6;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  height: 1px;
 }
