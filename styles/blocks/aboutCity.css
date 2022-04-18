@@ -1,9 +1,16 @@
 .about-city-list {
   padding: 26px 20px 36px;
+  background-color: #fff;
+  color: #333;
 }
 
-.about-city-item:not(:last-child) {
-  margin-bottom: 20px;
+.about-city-item:not(:last-child)::after {
+  content: "";
+  background: #D6D6D6;
+  position: absolute;
+  left: 20px; 
+  right: 20px;
+  height: 1px;
 }
 
 .about-city-title {
