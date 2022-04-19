@@ -1,5 +1,5 @@
 .landing {
-	padding: 38px 20px;
+	padding: 26px 20px 46px;
 }
 
 .landing-text {
@@ -16,6 +16,7 @@
 
 .map-with-marker {
 	background-image: url(../../img/map-desktop.jpg);
+	background-position: center;
 	height: 300px;
 	display: flex;
 	justify-content: center;

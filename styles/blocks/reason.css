@@ -1,3 +1,7 @@
+.reason.regular {
+  position: relative;
+}
+
 .reason-item:not(:last-child)::after {
   content: "";
   background: #D6D6D6;
@@ -9,7 +13,8 @@
 
 .regular {
   background-color: #EEEEEE;
-  padding: 16px 20px;
+  color: #333;
+  padding: 24px 20px 4px;
 }
 
 .special {
@@ -28,14 +33,14 @@
 }
 
 .reason-text {
-  margin: 12px 20px 16px;
+  margin: 12px 20px;
 }
 
 .reason-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   height: 100%;
-}
-
-.reason.regular {
-  position: relative;
+  object-fit: cover;
 }
