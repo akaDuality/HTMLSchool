@@ -11,15 +11,9 @@
   align-items: center;
 }
 
-/* .navigation-item:not(:last-child)::after {
-  content: "";
-  background: #fff;
-  position: absolute;
-  bottom: 0px;
-  left: 20px; 
-  right: 20px;
-  height: 1px;
-} */
+.navigation-item:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
 
 .navigation-link {
   color: #fff;
