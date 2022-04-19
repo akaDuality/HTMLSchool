@@ -1,5 +1,10 @@
-.reason {
- 
+.reason-item:not(:last-child)::after {
+  content: "";
+  background: #D6D6D6;
+  position: absolute;
+  left: 20px; 
+  right: 20px;
+  height: 1px;
 }
 
 .regular {

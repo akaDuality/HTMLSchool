@@ -1,8 +1,43 @@
+
+.navigation-list {
+  background: #81B3D2;
+}
+
+.navigation-item {
+  height: 55px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .navigation-item:not(:last-child)::after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  bottom: 0px;
+  left: 20px; 
+  right: 20px;
+  height: 1px;
+} */
+
+.navigation-link {
+  color: #fff;
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navigation-current {
   color: #766357;
 }
 
-.navigation-list {
-  display: flex;
-  flex-direction: column;
+.navigation-text {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: calc(100vw - 40px);
 }
