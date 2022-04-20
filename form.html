@@ -247,8 +247,8 @@
         <fieldset class="form-fieldset">
           <legend class="form-legend">Представьтесь</legend>
           <ul>
-            <li>
-              <label>
+            <li class="form-item">
+              <label class="form-label short-label">
                 Имя: *
                 <input
                   class="form-input"
@@ -256,12 +256,12 @@
                   name="firstname" 
                   placeholder="Ваше имя"
                   required
-                 />
+                />
               </label>
-              
             </li>
-            <li>
-            <label>
+
+            <li class="form-item">
+            <label class="form-label short-label">
               Фамилия: *
               <input
                 class="form-input"
@@ -273,8 +273,8 @@
             </label>
           </li>
   
-          <li>
-            <label>
+          <li class="form-item">
+            <label class="form-label short-label">
               Отчество: *
               <input
                 class="form-input"
@@ -289,40 +289,39 @@
           </ul>
         </fieldset>
   
-        <fieldset>
-          <legend>Контактная информация</legend>
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Контактная информация</legend>
           <ul>
-            <li>
-              <label>Контактный телефон:
-                <input type="tel" name="telephone" placeholder="Введите телефон">
+            <li class="form-item">
+              <label class="form-label long-label">Контактный телефон:
+                <input class="form-input" type="tel" name="telephone" placeholder="Введите телефон">
               </label>
             </li>
-            <li>
-              <label>Элетронная почта:
-                <input type="email" name="email" placeholder="Введите e-mail">
+            <li class="form-item">
+              <label class="form-label long-label">Элетронная почта:
+                <input class="form-input" type="email" name="email" placeholder="Введите e-mail">
               </label>
             </li>
           </ul>
         </fieldset>
   
-        <fieldset> 
-          <legend>Ваше общее впечатление</legend>
-  
+        <fieldset class="form-fieldset"> 
+          <legend class="form-legend long-label">Ваше общее впечатление</legend>
           <ul>
-            <li>
-              <label>
+            <li class="form-item">
+              <label class="form-label">
                 <input type="radio" value="positive" name="feedback"/>
                 Скорее положительное
               </label>
             </li>
-            <li>
-              <label>
+            <li class="form-item">
+              <label class="form-label long-label">
                 <input type="radio" value="positive" name="feedback"/>
                 Скорее отрицательное
               </label>
             </li>
-            <li>
-              <label>
+            <li class="form-item">
+              <label class="form-label long-label">
                 <input type="radio" value="unknown" name="feedback" checked/>
                 Затрудняюсь ответить
               </label>
@@ -331,29 +330,29 @@
           </legend>
         </fieldset>
   
-        <fieldset> 
-          <legend>Посещенные достопримечательности</legend>
+        <fieldset class="form-fieldset"> 
+          <legend class="form-legend">Посещенные достопримечательности</legend>
           <ul>
-            <li>
-              <label>
+            <li class="form-item">
+              <label class="form-label">
                 <input type="checkbox" name="isBridgeSigths" checked/>
                 Мост дьявола
               </label>
             </li>
-            <li>
-              <label>
+            <li class="form-item">
+              <label class="form-label">
                 <input type="checkbox" name="colokolMountain" checked/>
                 Гора-колокол
               </label>
             </li>
-            <li>
-              <label>
+            <li class="form-item">
+              <label class="form-label">
                 <input type="checkbox" name="slidePark"/>
                 Слайд-парк
               </label>
             </li>
-            <li>
-              <label>
+            <li class="form-item">
+              <label class="form-label">
                 <input type="checkbox" name="redMountain"/>
                 Красные скалы
               </label>
@@ -363,9 +362,9 @@
           </legend>
       </fieldset>
   
-      <fieldset>
-        <legend>Опишите свои эмоции:</legend>
-        <textarea placeholder="Опишите подробно все свои восторги"></textarea>
+      <fieldset class="form-fieldset">
+        <legend class="form-legend">Опишите свои эмоции:</legend>
+        <textarea class="textarea" placeholder="Опишите подробно все свои восторги"></textarea>
       </fieldset>
          
         <button>Отправить</button>
