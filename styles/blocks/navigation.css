@@ -1,9 +1,7 @@
-.navigation {
-  box-shadow: 0px 10px 10px red;
-}
-
 .navigation-list {
   background-color: #81B3D2;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, .18);
+  position: relative;
 }
 
 .navigation-item {
