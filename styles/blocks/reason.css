@@ -11,13 +11,13 @@
   height: 1px;
 }
 
-.regular {
+.reason-item.regular {
   background-color: #EEEEEE;
   color: #333;
   padding: 24px 20px 4px;
 }
 
-.special {
+.reason-item.special {
   display: flex;
   flex-direction: column;
   background-color: #81b3d2;
