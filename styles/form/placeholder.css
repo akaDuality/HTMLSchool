@@ -1,6 +1,6 @@
 
-.form-input::placeholder, .textarea::placeholder {
-    /* padding: 10px 0px; */
+.form-input::placeholder, .form-textarea::placeholder {
+    padding: 0px;
     color: #000;
     font-weight: 700;
 }

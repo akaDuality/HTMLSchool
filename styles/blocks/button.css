@@ -1,9 +1,10 @@
 .landing-button {
-  padding: 10px;
-  color: #ffffff;
+  
 }
 
 .button {
+  padding: 10px;
   background-color: #81b3d2;
   fill: #ffffff;
+  color: #ffffff;
 }

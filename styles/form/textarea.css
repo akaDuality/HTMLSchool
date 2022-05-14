@@ -1,8 +1,10 @@
-.textarea {
+.form-textarea {
     width: 100%;
     resize: vertical;
     min-height: 160px;
-    /* padding: 13px 22px;  */
     border: none;
+
     background-color: #F2F2F2;
+    padding: 13px 22px; 
+    margin-bottom: 8px;
   }

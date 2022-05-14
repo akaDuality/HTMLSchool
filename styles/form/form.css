@@ -1,5 +1,10 @@
+.form {
+  padding: 0px 20px; /* Include button horizontal spaces */
+}
+
 .form-fieldset {
-  /* background-color: red; */
+  
+  margin-bottom: 24px;
 }
 
 .form-legend {
@@ -8,7 +13,6 @@
 }
 
 .form-list {
-  padding: 0px 20px 24px;
   text-align: left;
 }
 
@@ -30,4 +34,11 @@
 .line {
   height: 1px;
   background-color: #E5E5E5;
+}
+
+.form-submit {
+  border: none;
+
+  width: 100%;
+  margin-bottom: 16px;
 }

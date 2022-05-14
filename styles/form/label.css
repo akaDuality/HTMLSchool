@@ -1,18 +1,13 @@
 .form-label {
-  /* padding: 10px; */
-  /* display: flex; */
-  /* flex-grow: 1; */
-  width: 300px;
 
-  /* background-color: red; */
-  /* margin-right: 8px; */
 }
+
 .form-label-text {
   margin-right: 12px;
 }
 
 .short-label {
-  /* width: 100%; */
+
 }
 
 .long-label {
