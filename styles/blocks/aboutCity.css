@@ -1,15 +1,24 @@
 .about-city-list {
-  padding: 10px 20px 36px;
+  padding: 28px 20px 36px;
   background-color: #fff;
   color: #333;
 }
 
 .about-city-item {
-  /* padding: 10px 0px; */
+  margin-bottom: 18px;
+}
+
+.about-city-item:last-child {
+  margin-bottom: 0;
 }
 
 .about-city-title {
-  padding: 25px 0;
+  margin-bottom: 16px;
+}
+
+.about-city-content {
+  text-align: left;
+  padding: 8px 0 0 12px;
 }
 
 .about-city-example {
@@ -19,14 +28,9 @@
 
 .about-city-icon {
   fill: #81b3d2;
-  padding: 0px 10px;
-  width: 100px;
 }
 
 .about-city-icon>svg {
   width: 40px;
 }
 
-.about-city-content {
-  text-align: left;
-}
