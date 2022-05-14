@@ -5,11 +5,15 @@
   height: 320px;
 }
 
+.lead-image-foreground {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .lead-header {
   margin-bottom: 28px;
-}
-.lead-image-foreground {
-  transform: translateY(25%)
 }
 
 .lead-description {
