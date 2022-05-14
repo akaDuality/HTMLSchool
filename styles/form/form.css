@@ -1,0 +1,28 @@
+.form-fieldset {
+  /* background-color: red; */
+}
+
+.form-legend {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-list {
+  padding: 0px 20px 24px;
+  text-align: left;
+}
+.form-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.form-input {
+  padding: 18px 22px;
+  /* margin: 10px auto; */
+  background-color: #F2F2F2;
+  border: 0;
+}
+
+.line {
+  height: 1px;
+  background-color: #E5E5E5;
+}

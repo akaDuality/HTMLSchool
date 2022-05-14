@@ -1,3 +1,4 @@
+@import "styles/reset.css";
 @import "styles/blocks/body.css";
 @import "styles/blocks/heading.css";
 @import "styles/blocks/reason.css";
@@ -7,8 +8,10 @@
 @import "styles/blocks/navigation.css";
 @import "styles/blocks/leading.css";
 @import "styles/blocks/aboutCity.css";
-@import "styles/blocks/form.css";
+@import "styles/form/form.css";
+@import "styles/form/radio-button.css";
+@import "styles/form/textarea.css";
+@import "styles/form/label.css";
 @import "styles/font.css";
-@import "styles/reset.css";
 @import "styles/blocks/visually-hidden.css";
 

@@ -4,12 +4,8 @@
   color: #333;
 }
 
-.about-city-item {
+.about-city-item:not(:last-child) {
   margin-bottom: 18px;
-}
-
-.about-city-item:last-child {
-  margin-bottom: 0;
 }
 
 .about-city-title {

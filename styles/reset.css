@@ -26,3 +26,17 @@ h3, h4,
 p {
   margin: 0;
 }
+
+.form-fieldset {
+  position: relative;
+  margin-inline-start: 0px;
+  margin-inline-end: 0;
+  padding-block-start: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  padding-block-end: 0;
+  min-inline-size: unset;
+  width: 100%;
+  border: 0;
+  margin: 0;
+}
