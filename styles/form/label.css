@@ -2,6 +2,7 @@
   /* padding: 10px; */
   /* display: flex; */
   /* flex-grow: 1; */
+  width: 300px;
 
   /* background-color: red; */
   /* margin-right: 8px; */
@@ -11,11 +12,15 @@
 }
 
 .short-label {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .long-label {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.form-label-text.long {
+  padding-left: 20px;
 }
