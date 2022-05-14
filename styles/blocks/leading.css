@@ -1,12 +1,15 @@
-.lead-image-foreground {
-  width: 100%;
-  height: 320px;
-  /* padding: 70px 20px; */
-}
-
 .lead-image {
   background-position: center;
   background-image: url(../../img/back-desktop.jpg);
+  position: relative;
+  height: 320px;
+}
+
+.lead-header {
+  margin-bottom: 28px;
+}
+.lead-image-foreground {
+  transform: translateY(25%)
 }
 
 .lead-description {
