@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-
+    <script defer src="js/scripts.js"></script>
     <title>Sedona</title>
   </head>
   <body class="body">
@@ -201,20 +201,34 @@
       </a>
 
       <nav class="navigation">
-        <ul class="navigation-list">
+        <ul id="nav-list" class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="index.html">Главная</a>
+            <a class="navigation-link" href="index.html">
+              <span class="navigation-text">Главная</span>
+            </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Фото и видео</a>
+            <a class="navigation-link" href="#">
+              <span class="navigation-text">Фото и видео</span>
+            </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-current">Форма отзыва</a>
+            <a class="navigation-link navigation-current" href="#">
+              <span class="navigation-text">Форма отзыва</span>
+            </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">HTML academy</a>
+            <a class="navigation-link" href="#">
+              <span class="navigation-text">HTML academy</span>
+            </a>
           </li>
         </ul>
+        <button id="nav-button" class="nav__toggle-button">
+          <span class="nav__button-line nav__button-line--first"></span>
+          <span class="nav__button-line nav__button-line--second"></span>
+          <span class="nav__button-line nav__button-line--third"></span>
+          Кнопка меню
+        </button>
       </nav>
     </header>
 

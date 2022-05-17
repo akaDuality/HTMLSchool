@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    <script defer src="js/scripts.js"></script>
     <title>Sedona</title>
   </head>
   <body class="body">
@@ -65,7 +66,7 @@
       </a>
 
       <nav class="navigation">
-        <ul class="navigation-list">
+        <ul id="nav-list" class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link navigation-current">
               <span class="navigation-text">Главная</span>
@@ -87,6 +88,12 @@
             </a>
           </li>
         </ul>
+        <button id="nav-button" class="nav__toggle-button">
+          <span class="nav__button-line nav__button-line--first"></span>
+          <span class="nav__button-line nav__button-line--second"></span>
+          <span class="nav__button-line nav__button-line--third"></span>
+          Кнопка меню
+        </button>
       </nav>
     </header>
 
