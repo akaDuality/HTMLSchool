@@ -14,7 +14,7 @@
 
 .about-city-content {
   text-align: left;
-  padding: 8px 0 0 12px;
+  padding-top: 8px;
 }
 
 .about-city-example {
@@ -24,6 +24,7 @@
 
 .about-city-icon {
   fill: #81b3d2;
+  margin-right: 12px;
 }
 
 .about-city-icon>svg {
