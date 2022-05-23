@@ -7,7 +7,7 @@
     
     navButton.addEventListener("click", (evt) => {
       evt.preventDefault();
-      navList.classList.toggle("nav-list--showed");
+      navList.classList.toggle("navigation-list--showed");
       navButton.classList.toggle("crossed");
 
       console.log("Click")
