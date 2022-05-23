@@ -2,7 +2,7 @@
     background-color: #81B3D2;
     box-shadow: 0px 4px 24px rgba(0, 0, 0, .18);
     position: relative;
-    transform: translateY(-100%);
+    transform: translateY(-120%);
 }
 
 .navigation-list--showed {
