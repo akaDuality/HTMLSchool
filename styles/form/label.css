@@ -1,13 +1,19 @@
 .form-label {
-
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .form-label-text {
   margin-right: 12px;
 }
 
-.short-label {
+.short-label>.form-input {
 
+}
+
+.form-input {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .long-label {
@@ -17,5 +23,5 @@
 }
 
 .form-label-text.long {
-  padding-left: 20px;
+  padding: 0 20px;
 }

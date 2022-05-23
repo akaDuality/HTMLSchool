@@ -3,8 +3,10 @@
     resize: vertical;
     min-height: 160px;
     border: none;
+    font-size: 18px;
+    font-weight: 800;
 
     background-color: #F2F2F2;
     padding: 13px 22px; 
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
   }

@@ -1,9 +1,8 @@
-.landing-button {
-  
-}
-
 .button {
-  padding: 10px;
+  font-size: 21px;
+  line-height: 26px;
+
+  padding: 16px;
   background-color: #81b3d2;
   fill: #ffffff;
   color: #ffffff;
